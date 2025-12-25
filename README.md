@@ -45,3 +45,9 @@ Your Directus collection must have the following fields (Integer) to store the m
 
 ### Why this is important
 Without this section, your "generic" feature is invisible. This documentation turn
+
+## Credits
+
+This extension's structure was inspired by [directus-operation-slugify](https://github.com/maintainer/repo).
+
+Special thanks to the author for providing a great template for Directus extensions.
