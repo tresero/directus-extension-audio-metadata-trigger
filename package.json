@@ -1,0 +1,21 @@
+{
+  "name": "directus-extension-audio-metadata-trigger",
+  "version": "1.0.0",
+  "description": "A Directus hook to extract ID3 metadata from S3 streams without downloading the full file.",
+  "main": "src/index.js",
+  "author": "Jon Griffin <jon@jongriffin.com> (https://jongriffin.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tresero/directus-extension-audio-metadata-trigger.git"
+  },
+  "dependencies": {
+    "music-metadata": "^7.13.0"
+  },
+  "directus:extension": {
+    "type": "hook",
+    "path": "src/index.js",
+    "source": "src/index.js",
+    "host": "^10.0.0"
+  }
+}
